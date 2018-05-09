@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html>
+
+    <head> 
+        <title>Meu site</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        
+        <!-- <strong>Esse é um texto negritado </strong> <br /> -->
+
+        <!-- <em>Esse é um texto de Itálico</em> <br> -->
+
+        <!-- <u>Esse é um texto com Underline </u> <br> -->
+
+        <!-- <stike>Esse é um texto errado</stike> -->
+
+        <!-- <h1>Lista de Compras</h1> -->
+
+        <!-- <ul> -->
+            <!-- <li>Notebook </li>
+            <li>Roteador</li>
+            <li>Mouse</li>
+        </ul> -->
+
+        <!-- <ul>
+
+            <h1>Perguntas</h1>
+            
+            <ol>
+                <li>Comida Favorita</li>
+                <li>Carro Favorito</li>
+            </ol>
+
+        </ul> -->
+
+        <!-- <img src="imagens/love-cat.jpg" height="200" width="250" />  -->
+
+        <!-- <a href="http://www.google.com.br">
+            Clique aqui
+        </a> -->
+
+
+        <a href="">
+            Home
+        </a>
+
+        <a href="contato.html">
+            Contato
+        </a>
+
+    </body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+
+<html>
+
+    <head> 
+        <title>Tabelas</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        
+        <h1> Tabelas </h1>
+
+        <table border="1">
+
+            <tr>
+
+                <td>Código</td>
+                <td>Produto</td>
+
+            </tr>
+
+            <tr>
+
+                <td>00000000120</td>
+                <td>Notebook</td>
+
+            </tr>
+
+            <tr>
+
+                    <td>00000000130</td>
+                    <td>Tablet</td>
+                    
+                </tr>
+
+        </table>
+                
+    </body>
+        
+</html>
