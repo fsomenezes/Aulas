@@ -1,0 +1,20 @@
+/* Sombras */
+#box {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 8px;
+    background: #009670;
+    /* O quarto parametro do shadow é a de espalhamento */
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+#box h1 {
+color: white;
+font-size: 60px;
+/* Primeiro parametro é o de movimentação da direita para a esquerda, o segundo para baixo e para cima
+ e o terceiro o blur */
+/* text-shadow: 10px 10px 10px black; */
+/* text-shadow: 20px 20px rgba(0, 0, 0, 0.5) */
+text-shadow: 4px 4px black;
+}
