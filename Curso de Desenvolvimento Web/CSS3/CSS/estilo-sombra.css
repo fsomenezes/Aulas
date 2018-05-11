@@ -6,7 +6,8 @@
     padding: 8px;
     background: #009670;
     /* O quarto parametro do shadow é a de espalhamento */
-    box-shadow: 10px 10px 10px 10px black;
+    /* box-shadow: 10px 10px 10px 10px black; */
+    box-shadow: 10px 10px 2px black, -10px -10px 2px red;
 }
 
 #box h1 {
