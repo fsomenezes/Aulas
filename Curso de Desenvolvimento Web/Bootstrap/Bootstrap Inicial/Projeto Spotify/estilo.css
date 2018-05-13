@@ -1,0 +1,114 @@
+/* Layout */
+
+html, body, .capa {
+  height: 100%;
+}
+
+body {
+    /* border: 1px solid red; */
+    background: url('imagens/capa.png'), url(imagens/ruido.png), linear-gradient(50deg, #ff4169,#7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Barra de navegação */
+.img-logo {
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('imagens/spotify.svg') no-repeat;
+    /* border: 1px solid red; */
+    background-size: contain;
+    color: transparent;
+}
+
+.navbar-brand {
+    padding: 5px -9px;
+}
+
+.divisor {
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 15px 10px;
+}
+
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #9bf0e1;
+}
+
+
+
+/* Imagem de capa */
+
+.capa {
+  /* border: 1px solid red; */
+  display: table;
+  width: 100%;
+}
+
+.text-capa {
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Botões */
+
+.btn-custom {
+  color: white;
+  /* Arredondamento do botão */
+  border-radius: 500px;
+  /* Para outros browsers */
+  -webkit-webkit: border radius 500px;
+  -moz-webkit: border radius 500px;
+  -ms-webkit: border radius 500px;
+  -o-webkit: border radius 500px;
+  /* border: 1px solid red; */
+  padding: 10px 35px;
+  margin: 15px;
+  text-transform: uppercase;
+  transition-duration: 0.3s;
+}
+
+.btn-verde {
+  background: #1db954;
+}
+
+.btn-verde:hover {
+  color: white;
+  background-color: #1ed760;
+
+}
+
+.btn-transparente {
+  /* color: white; */
+  /* box-shadow: white;
+  background: black; */
+  border: 2px solid white;
+}
+
+.btn-transparente:hover {
+  color: black;
+  background-color: white;
+}
+
+/* Tipografia */
+
+h1 {
+  font-size: 80px;
+  font-weight: 900;
+  letter-spacing: -.04em;
+  line-height: 1.15;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
