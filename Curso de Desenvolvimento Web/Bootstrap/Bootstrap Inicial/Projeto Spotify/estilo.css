@@ -8,7 +8,8 @@ body {
     /* border: 1px solid red; */
     background: url('imagens/capa.png'), url(imagens/ruido.png), linear-gradient(50deg, #ff4169,#7c26f8);
     background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 /* Barra de navegação */
@@ -30,7 +31,7 @@ body {
     width: 1px;
     height: 16px;
     background: white;
-    margin: 15px 10px;
+    margin: 12px 10px;
 }
 
 .bg-transparent {
@@ -44,8 +45,6 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #9bf0e1;
 }
-
-
 
 /* Imagem de capa */
 
@@ -102,6 +101,76 @@ body {
   background-color: white;
 }
 
+
+/* Seção de serviço */
+
+#servicos {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Espaçamento entre as imagens */
+.albuns {
+  padding: 10px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+#recursos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.rotacionar {
+  transform: rotate(30deg);
+  padding-left: 80px
+}
+
+
+/* Rodapé */
+
+footer {
+  background: black;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+  color: transparent;
+}
+
+/* .navegacao a {
+  color: white;
+}
+
+.navegacao a:hover {
+  color: #9bf0e1;
+} */
+
+.item-rede-social {
+  float: right;
+}
+
+#rodape a {
+  color: white;
+}
+
+#rodape a:hover {
+  color: #9bf0e1;
+}
+
+#rodape h3 {
+  color: #919496;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#rodape a {
+  font-size: 16px;
+  font-weight: 400;
+  padding: .1em 0;
+  margin-right: .75em;
+  display: inline-block;
+}
+
 /* Tipografia */
 
 h1 {
@@ -111,4 +180,36 @@ h1 {
   line-height: 1.15;
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -.04em
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -.04em
+}
+
+
+
+p {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -.04em
+}
+
+#servicos h2 {
+  color: #7c26f8
+}
+
+#servicos h3 {
+  color: #7c26f8
+}
+
+#recursos h3 {
+  color: #9bf0e1;
 }
