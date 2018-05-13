@@ -2,6 +2,7 @@
 
 html, body, .capa {
   height: 100%;
+  overflow: auto;
 }
 
 body {
@@ -36,6 +37,7 @@ body {
 
 .bg-transparent {
   background-color: rgba(0, 0, 0, 0.6)!important;
+  overflow-y: hidden;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -73,8 +75,8 @@ body {
   -ms-webkit: border radius 500px;
   -o-webkit: border radius 500px;
   /* border: 1px solid red; */
-  padding: 10px 35px;
-  margin: 15px;
+  /* padding: 10px 35px;
+  margin: 10px 15px; */
   text-transform: uppercase;
   transition-duration: 0.3s;
 }
@@ -171,10 +173,38 @@ footer {
   display: inline-block;
 }
 
+/* Media queris */
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 60px;
+  }
+  .btn-custom {
+    margin: 10px 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 100px;
+  }
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 120px;
+  }
+
+
+
 /* Tipografia */
 
 h1 {
-  font-size: 80px;
+  /* font-size: 80px; */
   font-weight: 900;
   letter-spacing: -.04em;
   line-height: 1.15;
