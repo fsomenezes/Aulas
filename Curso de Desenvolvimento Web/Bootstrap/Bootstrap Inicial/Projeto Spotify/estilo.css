@@ -113,6 +113,7 @@ body {
 }
 
 /* Espaçamento entre as imagens */
+
 .albuns {
   padding: 10px 0px 10px 0px;
   margin: 0px 0px 0px 0px;
@@ -188,18 +189,19 @@ footer {
   h1 {
     font-size: 80px;
   }
+}
 
 @media screen and (min-width: 992px) {
   h1 {
     font-size: 100px;
   }
+}
 
 @media screen and (min-width: 1200px) {
   h1 {
     font-size: 120px;
   }
-
-
+}
 
 /* Tipografia */
 
@@ -215,13 +217,13 @@ h1 {
 h2 {
   font-size: 50px;
   font-weight: 700;
-  letter-spacing: -.04em
+  letter-spacing: -.04em;
 }
 
 h3 {
   font-size: 24px;
   font-weight: 700;
-  letter-spacing: -.04em
+  letter-spacing: -.04em;
 }
 
 
@@ -229,15 +231,15 @@ h3 {
 p {
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: -.04em
+  letter-spacing: -.04em;
 }
 
 #servicos h2 {
-  color: #7c26f8
+  color: #7c26f8;
 }
 
 #servicos h3 {
-  color: #7c26f8
+  color: #7c26f8;
 }
 
 #recursos h3 {
