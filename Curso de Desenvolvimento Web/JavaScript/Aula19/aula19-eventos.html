@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+            <title>Eventos - Teclado</title>
+        <script type="text/JavaScript">
+            // onkeydown
+            // onkeypress
+            // onkeyup
+
+            function msgBoasVindas() {
+                alert('Uma tecla foi pressionada');
+            }
+            
+                        
+        </script>
+        
+
+    </head>
+
+    <body>
+        <!-- <input onkeydown="msgBoasVindas()" type="text" ></input> /* acionado no momento em que a tecla é pressionada */ -->
+        <!-- <input onkeypress="msgBoasVindas()" type="text"></input> acionado no momento em que a tecla é pressionada com algumas exceções -->
+        <input onkeyup="msgBoasVindas()" type="text"></input> não importa se o clique está pressionado ou não
+    </body>
+</html>

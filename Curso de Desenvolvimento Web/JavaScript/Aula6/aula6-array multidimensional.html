@@ -1,0 +1,50 @@
+<!doctype <!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Aula 6 de JavaScript</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+        <script type="text/JavaScript">
+
+            // Array multidimensional
+
+            var lista_coisas = Array();
+
+            lista_coisas['frutas'] = Array();
+            lista_coisas['pessoas'] = Array();
+
+            // Podendo também ser escrito assim
+           
+            // var lista_coisas = [];
+
+            // lista_coisas['frutas'] = [];
+            // lista_coisas['pessoas'] = [];
+
+            // Ou assim
+
+            // lista_coisas['frutas'] = Array('Banana', 'Maçã', 'Morango');
+            // lista_coisas['peassoas'] = Array('João','José','Maria');
+
+
+            lista_coisas['frutas'][1] = 'Banana';
+            lista_coisas['frutas'][2] = 'Maça';
+            lista_coisas['frutas'][3] = 'Morango';
+
+            lista_coisas['pessoas'][1] = 'João';
+            lista_coisas['pessoas'][2] = 'José';
+            lista_coisas['pessoas'][3] = 'Maria';
+
+            document.write(lista_coisas['pessoas'][2]);
+
+
+        </script>
+        
+
+    </head>
+
+    <body>
+    
+    </body>
+</html>

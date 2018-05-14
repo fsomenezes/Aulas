@@ -1,0 +1,65 @@
+<!doctype <!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Aula 7-8-9-10 de JavaScript</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+        <script type="text/JavaScript">
+
+            // == = igual
+            // === = igual com o mesmo valor
+            // != <> - valores diferente
+            // !== = valores não identicos
+            // < = valor menor
+            // > = valor maior
+            // <= = menor ou igual
+            // >= maior ou igual
+            
+            var nota = prompt('Digite a nota do aluno');
+            var faltas = prompt('Digite a quantidade de faltas do aluno');
+            
+            var media = 7;
+            var faltas_limite = 15;
+
+            if (nota > media && faltas <= faltas_limite) {
+                document.write('Aprovado');
+            } else {
+                document.write('Reprovado');
+            }
+            
+
+            //true && true && true = true
+            /*
+            if (2 == 2 && 4 == 4 && 'a' != 'b') {
+                document.write('Verdadeiro');
+            } else {
+                document.write('Falso');
+            } */
+
+            // false || false || true = true             || = ou
+            /*
+            if (3 == 2 || 4 > 4 || 'a' != 'b') {
+                document.write('Verdadeiro');
+            } else {
+                document.write('Falso');
+            } */
+
+            // !false (true) = true
+            /*
+            if (!(2 == 2)) {
+                document.write('Verdadeiro');
+            } else {
+                document.write('Falso');
+            } */
+
+        </script>
+        
+
+    </head>
+
+    <body>
+    
+    </body>
+</html>
