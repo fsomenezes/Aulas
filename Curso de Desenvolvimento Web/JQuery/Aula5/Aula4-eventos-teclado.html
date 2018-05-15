@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>Aula 5 - Eventos - Formulários</title>
+  </head>
+  <body>
+
+    <select class="campo1" type="text">
+      <option value="1">Primeiro</option>
+      <option value="2">Segundo</option>
+
+    <!-- Optional JavaScript
+    jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script type="text/JavaScript"></script>
+    
+    <script>
+      $( document ).ready(function() {
+
+      // .focus() - acionado quando o elemento recebe o foco do cursos
+      // .blur() - acionado quando o elemento perde o foco do cursos
+      // .change() - acionado quando o estado do elemento é modificado
+
+
+        // $( ".campo1" ).focus(function() {
+        //   alert( "Handler for .focus() called." );
+        // });
+
+        // $( "#campo1" ).blur(function() {
+        //   alert( "Handler for .blur() called." );
+        // });
+
+        $( ".campo1" ).change(function() {
+          alert( "Handler for .change() called." );
+        });
+
+      });
+
+    </script>
+
+  </body>
+</html>

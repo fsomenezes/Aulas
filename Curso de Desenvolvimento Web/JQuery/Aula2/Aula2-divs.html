@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    	<title>Divs</title>
+	</head>
+
+	<body>
+		
+		<div class="container">
+			<div class="jumbotron">
+				<h1>SELECIONANDO ELEMENTOS COM JQUERY</h1>
+			</div>
+
+			<hr />
+
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Parágrafos (p)</h4>
+				</div>
+				<div class="col-md-4">
+					<h4>Divisões (div)</h4>
+				</div>
+				<div class="col-md-4">
+					<h4>Campos (input)</h4>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<p class="bg-primary">Este é um parágrafo</p>
+					<p class="bg-light">Este é outro parágrafo</p>
+				</div>
+
+				<div class="col-md-2">
+					<div style="height: 100px; width: 100px; background:#428bca;" class=" div_2 pull-left"></div>
+				</div>
+				<div class="col-md-2">
+					<div style="height: 100px; width: 100px; background:#5cb85c; margin-left:15px" class="div_ 2 pull-left"></div>
+				</div>
+
+				<div class="col-md-4">
+					<input id="campo_1" type="text" class="form-control" />
+					<input id="campo_2" type="text" class="form-control" />
+				</div>
+			</div>
+
+			<hr />
+
+			<div class="row">
+				<div class="col-md-4">
+					<button type="button" class="btn btn-danger" onclick="ocultaElementoPorTag('p')">Esconder parágrafos</button>
+					<button type="button" class="btn btn-success" onclick="exibeElementoPorTag('p')">Exibir parágrafos</button>
+				</div>
+
+				<div class="col-md-4">
+					<button type="button" class="btn btn-danger" onclick="ocultaElementoPorClasse('div_2')">Esconder divs</button>
+					<button type="button" class="btn btn-success" onclick="exibeElementoPorClasse('div_2')">Exibir divs</button>
+				</div>
+
+				<div class="col-md-4">
+					<!-- <button type="button" class="btn btn-danger" onclick="ocultaElementoPorTag('input')" >Esconder inputs</button>
+					<button type="button" class="btn btn-success" onclick="exibeElementoPorTag('input')">Exibir inputs</button> -->
+
+					<button type="button" class="btn btn-danger" onclick="ocultaElementoPorId('campo_1'); ocultaElementoPorId('campo_2')";  >Esconder inputs</button>
+					<button type="button" class="btn btn-success" onclick="exibeElementoPorId('campo_1'); exibeElementoPorId('campo_2')"; >Exibir inputs</button>
+
+				</div>
+
+			</div>
+			
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<script type="text/javascript"></script>
+
+		<script>
+			function exibeElementoPorTag(tag) {
+				$(tag).show();
+			}
+
+			function ocultaElementoPorTag(tag) {
+				$(tag).hide();
+			}
+
+			function exibeElementoPorClasse(classe) {
+				$('.'+classe).show();
+			}
+
+			function ocultaElementoPorClasse(classe) {
+				$('.'+classe).hide();
+			}
+
+			function exibeElementoPorId(id) {
+				$('#'+id).show();
+			}
+
+			function ocultaElementoPorId(id) {
+				$('#'+id).hide();
+			}
+		</script>
+
+	</body>
+</html>
